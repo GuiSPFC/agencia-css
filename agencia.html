@@ -29,37 +29,35 @@
 
         <section>
             <h2>Serviços</h2>
-            <div id="servicos-container">
-                <p class="servico-item">Design Gráfico</p>
-                <p class="servico-item">Desenvolvimento Web</p>
-                <p class="servico-item">Branding</p>
-                <p class="servico-item">Outros</p>  
+            <div class="servicos">
+                <p class="servicos-item">Design Gráfico</p>
+                <p class="servicos-item">Desenvolvimento Web</p>
+                <p class="servicos-item">Branding</p>
+                <p class="servicos-item">Outros</p>
             </div>
-            
         </section>
 
-        <section id="depoimentos">
-            <h2>Depoimentos</h2>
-            <div class="depoimentos-container">
-                <div class="depoimento-card">
-                    <p class="depoimento-texto">"Essa empresa me ajudou muito a conseguir novos clientes"</p>
-                    <span class="depoimento-autor">Renato</span>
+        <section class="depoimentos">
+            <h2 class="depoimento__titulo">Depoimentos</h2>
+
+            <div class="depoimentos__container">
+                <div class="depoimento__card">
+                    <p class="depoimento__texto">"Essa empresa me ajudou muito a conseguir novos clientes"</p>
+                    <span class="depoimento__autor">Renato</span>
                 </div>
-            </div>
 
-            <div class="depoimento-card">
-                <p class="depoimento-texto">"Foram super atenciosos e por um preço justo"</p>
-                <span class="depoimento-autor">Mariana</span>
-            </div>
-
+            <div class="depoimento__card">
+                    <p class="depoimento__texto">"Foram super atenciosos e por um preço justo"</p>
+                    <span class="depoimento__autor">Mariana</span>
+                </div>
             </div>
         </section>
 
         <section>
-            <h2>Contato</h2>
+            <h2 class="contato__titulo">Contato</h2>
 
-            <form>
-                <h1>Entre em contato com a gente!</h1>
+            <form class="formulario">
+                <h1 class="formulario__titulo">Entre em contato com a gente!</h1>
 
                 <label for="nome">Nome: </label>
                 <input type="text" name="nome" id="nome">
@@ -73,7 +71,7 @@
                 <label for="mensagem">Deixa uma mensagem: </label>
                 <textarea name="mensagem" id="mensagem" rows="4" required></textarea>
 
-                <button>Enviar</button>
+                <button class="formulario_botao">Enviar</button>
 
             </form>
         </section>

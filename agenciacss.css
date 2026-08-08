@@ -68,14 +68,14 @@ section h2 {
   font-size: 1.4rem;
 }
 
-#servicos-container {
+#servicos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
   gap: 20px;
   margin-top: 15px;
 }
 
-.servico-item {
+.servico__item {
   background-color: var(--white);
   border: 2px solid var(--dark);
   padding: 20px;
@@ -85,28 +85,21 @@ section h2 {
   letter-spacing: 1px;
 }
 
-.depoimentos-container{
+.depoimentos__container{
   display: flex;
   flex-direction: column;
   gap: 20px;
   margin-top: 15px;
 }
 
-.depoimento-card {
-  background-color: var(--white);
-  border: 2px solid var(--dark);
-  padding: 25px;
-  position: relative;
-}
-
-.depoimento-texto {
+.depoimento__texto {
   font-style: italic;
-  color: rgb (49, 49, 49);
+  color: black;
   margin-bottom: 13px;
   font-size: 1.05rem;
 }
 
-.depoimento-autor {
+.depoimento__autor {
   display: block;
   font-size: 0.85rem;
   font-weight: bold;
