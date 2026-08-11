@@ -94,11 +94,19 @@ body {
   color: black;
 }
 
-.servicos {
+.servicos__lista {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
   gap: 20px;
   margin-top: 15px;
+}
+
+.servicos__titulo {
+  margin-bottom: 15px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.4rem;
 }
 
 .servicos__item {
@@ -142,14 +150,14 @@ body {
   margin: 20px 0 0 0 ;
 }
 
-.formulario_titulo {
-  font-size: 0.8rem;
+.formulario__titulo {
+  font-size: 1.5rem;
   color: rgb(49, 49, 49);
   margin-bottom: 10px;
 }
 
-.contato_titulo {
-  font-size: 1.2rem;
+.contato__titulo {
+  font-size: 2rem;
   color: rgb(49, 49, 49);
   margin-bottom: 14px;
 }
