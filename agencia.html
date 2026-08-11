@@ -6,34 +6,34 @@
     <title>Agencia Chronos</title>
     <link rel="stylesheet" href="agenciacss.css?v=2">
 </head>
-<body>
-    <header>
-        <h1>Bem vindo a Chronos</h1>
 
-        <nav>
-            <ul>
-                <li><a href="">Sobre</a></li>
-                <li><a href="">Serviços</a></li>
-                <li><a href="">Depoimentos</a></li>
-                <li><a href="">Contato</a></li>
+<body>
+    <header class="header">
+        <h1 class="header__titulo">Bem vindo a Chronos</h1>
+
+        <nav class="nav">
+            <ul class="nav__lista">
+                <li class="nav__item"><a href="">Sobre</a></li>
+                <li class="nav__item"><a href="">Serviços</a></li>
+                <li class="nav__item"><a href="">Depoimentos</a></li>
+                <li class="nav__item"><a href="">Contato</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section>
 
-            <h2>Sobre nós</h2>
-            <p>Somos uma empresa que ajuda você a desenvolver o seu lado mais criativo</p>
-
+    <main class="main">
+        <section class="sobre">
+            <h2 class="sobre__titulo">Sobre nós</h2>
+            <p class="sobre__item">Somos uma empresa que ajuda você a desenvolver o seu lado mais criativo</p>
         </section>
 
         <section>
             <h2>Serviços</h2>
             <div class="servicos">
-                <p class="servicos-item">Design Gráfico</p>
-                <p class="servicos-item">Desenvolvimento Web</p>
-                <p class="servicos-item">Branding</p>
-                <p class="servicos-item">Outros</p>
+                <p class="servicos__item">Design Gráfico</p>
+                <p class="servicos__item">Desenvolvimento Web</p>
+                <p class="servicos__item">Branding</p>
+                <p class="servicos__item">Outros</p>
             </div>
         </section>
 
@@ -53,7 +53,7 @@
             </div>
         </section>
 
-        <section>
+        <section class="contato">
             <h2 class="contato__titulo">Contato</h2>
 
             <form class="formulario">
@@ -71,7 +71,7 @@
                 <label for="mensagem">Deixa uma mensagem: </label>
                 <textarea name="mensagem" id="mensagem" rows="4" required></textarea>
 
-                <button class="formulario_botao">Enviar</button>
+                <button class="formulario__botao">Enviar</button>
 
             </form>
         </section>
